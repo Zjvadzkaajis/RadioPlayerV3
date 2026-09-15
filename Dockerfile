@@ -1,5 +1,5 @@
 # Debian Based Docker
-FROM debian:latest
+FROM debian:bookworm-slim
 
 RUN apt update && apt upgrade -y
 
